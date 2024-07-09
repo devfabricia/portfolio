@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+}
+/*estilo da navegação superior*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px 0 40px;
+  background-color: #ebebeb;
+  font-family: "poppins";
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+  list-style: none;
+}
+.botao-header {
+  padding: 10px;
+  background-color: #e66755;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+}
+.botao-sobre {
+  text-decoration: none;
+  border: 0;
+  color: black;
+  padding: 10px;
+  background-color: #e66755;
+  border-radius: 4px;
+  font-family: "poppins";
+  font-weight: 600;
+  align-self: center;
+  text-transform: uppercase;
+}
+.nome {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+/*estilo do conteúdo onde fala sobre mim*/
+.container-sobre-mim {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  box-shadow: 10px 8px 8px #7e6d6d54;
+  background-color: #f5f3f3d2;
+  margin: 30px 70px 0 70px;
+  border-radius: 30px;
+}
+.sobre {
+  font-family: "roboto";
+  font-weight: 400;
+  line-height: 25px;
+  font-size: 22px;
+  color: black;
+  padding: 0 20px 0 20px;
+}
+.titulo {
+  text-transform: uppercase;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 35px;
+  text-align: center;
+  border-radius: 40px;
+  height: 50px;
+}
